@@ -15,7 +15,7 @@ nav {
 
 nav ul {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 
 nav ul li {
@@ -164,7 +164,7 @@ li:hover {
   font-weight: bold;
   color: black;
 }
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 640px) {
   .main,
   .section1,
   .section2,
@@ -237,14 +237,11 @@ li:hover {
 }
 
 /* nav icon display when screen is responsive */
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 640px) {
   .hamburger {
     display: block;
   }
-  .nav,
-  .closenav {
-    display: block;
-  }
+
   /* .nav {
     transition: 0.5s;
   } */
