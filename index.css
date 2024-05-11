@@ -222,14 +222,14 @@ li:hover {
     width: auto;
   }
   .laptops {
-    padding-right: 40px;
-    /* gap: 1rem; */
+    padding-right: 4px;
+    gap: 1rem;
   }
   .laptop1,
   .laptop2,
   .laptop3 {
-    margin: 1px;
-    padding: 2rem;
+    /* margin: 1px;
+    padding: 2rem; */
     display: flex;
     font-size: 15px;
     /* gap: 0; */
