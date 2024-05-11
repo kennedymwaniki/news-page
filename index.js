@@ -1,6 +1,6 @@
 const open = document.querySelector(".hamburger");
 const close = document.querySelector(".closenav");
-const nav = document.querySelector(".navs");
+const nav = document.querySelector(".nav");
 
 open.addEventListener("click", function () {
   console.log("clicked");

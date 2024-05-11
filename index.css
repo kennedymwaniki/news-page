@@ -15,7 +15,7 @@ nav {
 
 nav ul {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 nav ul li {
@@ -241,7 +241,10 @@ li:hover {
   .hamburger {
     display: block;
   }
-
+  .nav,
+  .closenav {
+    display: block;
+  }
   /* .nav {
     transition: 0.5s;
   } */
